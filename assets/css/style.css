@@ -1,24 +1,35 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 .contenedor {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 .caja {
   width: 200px;
   height: 200px;
+  position: absolute;
 }
 #rosa {
+  left: 0px;
+  top: 0px;
   background-color: #EE3E64;
+
 }
 #azul {
-  position: relative;
-  left: 200px;
+  right: 0px;
+  top: 0px;
   background-color: #2B7DB9;
 
 }
 #verde {
+  left: 0px;
+  bottom: 0px;
   background-color: #B7D84B;
+}
+#amarillo {
+  right: 0px;
+  bottom: 0px;
+  background-color: #FAFF16;
 }
